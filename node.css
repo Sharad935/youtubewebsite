@@ -1,0 +1,35 @@
+.container{
+	
+	width:70%;
+	margin:auto;
+	padding: 5px;
+}
+#container1
+{
+	display: flex;
+	justify-content: space-between;
+	width: 100%
+	margin:auto;
+}
+#container2
+{
+	width:100%;
+	margin: auto;
+
+}
+#container2 table
+{
+	width: 100%
+}
+#container2 table thead td
+{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+
+}
+#container table tbody td
+{
+	font-size: 18px;
+	text-align: center;
+}

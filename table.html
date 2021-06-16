@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form</title>
+	<style>
+		*
+		{
+			padding: 0;
+			margin:0;
+			box-sizing: border-box;
+		}
+		.container1
+		{
+			border:3px solid red;
+			display: flex;
+		}
+		.block1
+		{
+			background-image: url("C:\xampp\htdocs\youtubewebsite\\15.jpg");
+			background-size: cover;
+			flex:3;
+		}
+		.block2
+		{
+			justify-content: center;
+			margin:auto;
+			padding: 50px;
+			border-radius: 20px;
+			box-shadow: 0px 2px 17px #263238;
+		    margin-bottom: 10px;
+		}
+		.container2
+		{
+			display: flex;
+			overflow: hidden;
+		}
+		.label_class 
+		{
+			font-size: 22px;
+			font-family: 'Times New Roman',Times,serif;
+
+		}
+		.inp.label
+		{
+			display: inline;
+			padding-right: 48px;
+			border:1px solid black;
+		}
+		.formclass
+		{
+			padding: 5px;
+			width: 450px;
+			display:inline;
+			background:none;
+			font-size: 16px;
+			color:grey;
+			font-family: Times New Roman;
+			border-bottom: 1 px solid rgb(139,129,129);
+			border-radius: 4px;
+		}
+		.bin{
+			padding: 8px;
+			border-radius: 5px;
+			width: 100px;
+			color:#fff;
+			font-weight: 400;
+			background-color: rgb(20,160);
+		}
+		h1
+		{
+			background-color: rgb(96,102,104);
+			padding: 15px;
+			font-size: 45px;
+			font-weight: bolder;
+		}
+		
+	</style>
+</head>
+<body class="imag">
+	<div class="container1">
+		<div class="block1">
+			<center><h1>Bus Booking Form</h1></center>
+			<div class="block2">
+				<form action="#" name="myform" onsubmit="return validate()">
+					
+
+					<span id="err1"></span><br><br>
+					<label for="fname" class="label_class">First Name</label>
+					<input type="text" name="fname" class="formclass">
+					<br>
+					<br><br>
+					<span id="err2"></span><br><br>
+					<label for="lname" class="label_class">Last Name</label>
+					<input type="text" name="lname" class="formclass">
+					<br><br><br>
+					<span id="err3"></span>
+					<br><br>
+					<label for="Age" class="label_class">Age</label>
+					<input type="number" name="age" class="formclass">
+					<br><br><br>
+					<span id="err4"></span><br><br>
+					<label for="date" class="label_class">Date</label>
+					<input type="date" name="formclass" name="date">
+					<br><br><br>
+					<span id="err5"></span><br><br>
+					<label for="from" class="label_class">From</label>
+					<select name="from" id="" class="formclass">
+						<option value="Agra">Agra</option>
+						<option value="Chennai">Chennai</option>
+						<option value="Mathura">Mathura</option>
+						<option value="Delhi">Delhi</option>
+						<option value="Punjab">Punjab</option>
+					</select>
+					<br><br><br>
+					<span id="err6"></span><br><br>
+					<label for="to" class="label_class" style="margin-left: 120px;>To</label>
+					<select name="to" id="" class="formclass">
+						<option  value="Agra">Agra</option>
+						<option value="Chennai">Chennai</option>
+						<option value="Mathura">Mathura</option>
+						<option value="Delhi">Delhi</option>
+						<option value="punjab">Punjab</option>
+					</select>
+					<br><br><br>
+				</form>
+
+
+		</div>
+
+
+	</div>
+
+</body>
+</html>

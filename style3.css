@@ -1,0 +1,14 @@
+.container
+{
+	border:3px solid black;
+	display:block;
+	padding: 20px;
+	margin:300px;
+	background-color: #EEEEEE;
+    
+}
+.container1
+{
+	background: url("567.jpg");
+	background-size: cover;
+}
